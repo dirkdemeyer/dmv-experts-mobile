@@ -1,0 +1,5 @@
+DMV Experts Mobile v0.5.2 – officieel DMV-logo uit uw Word-briefhoofd.
+
+Publiceer op GitHub in repository dirkdemeyer/dmv-experts-mobile: vervang de rootbestanden index.html, manifest.webmanifest en sw.js; voeg toe dmv-logo.png, icon-192.png en icon-512.png. Andere bestanden van de site hoeven niet gewijzigd te worden. De Dropbox-koppeling en dossierdata blijven bestaan zolang browseropslag niet wordt gewist. Vervang op A55 indien nodig het eerder toegevoegde startschermpictogram door opnieuw Toevoegen aan startscherm te kiezen nadat de site vernieuwd is.
+
+Let op: dit bestand is nog niet automatisch op GitHub gepubliceerd.

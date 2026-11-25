@@ -1,0 +1,21 @@
+DMV Experts Mobile 0.5 – testversie, 25 november 2026
+
+WAT IS AANGEPAST
+- Pc-ontvanger kijkt nu naar Dropbox\Apps\DMVExpertsMobile\DMV_TRANSFER.
+- De oude Dropbox\DMV_transfer is NIET dezelfde map.
+- Elke expertise gebruikt de ingevoerde expertisedatum in YYMMDD, onafhankelijk van creatie- of uploaddatum.
+- Eigen Word-startdocument per expertise; geen automatische Word-bewerking in deze versie.
+- Geen automatische verwijdering uit Dropbox of pc.
+
+PC-TEST
+1. Pak dit ZIP volledig uit.
+2. Controleer dat de Dropbox-desktopapp ook Apps\DMVExpertsMobile synchroniseert.
+3. Start TEST_appmap_eenmalig.cmd zodra er een ZIP in de nieuwe appmap staat.
+4. Controleer je DMV-archief. Gebruik START_appmap_ontvangen.cmd alleen na geslaagde test.
+
+MOBIELE WEBAPP
+index.html bevat een Dropbox OAuth PKCE testfunctie, maar moet eerst via een betrouwbare HTTPS-website gehost worden. Registreer daarna het exacte HTTPS-adres in Dropbox Console -> OAuth2 -> Redirect URIs. Open vanuit file:// werkt niet. Een App key is publiek; deel geen App secret of tokens.
+De Android-webapp synchroniseert niet gegarandeerd op de achtergrond als het scherm vergrendeld is. Geen betrouwbare wifi-SSID filtering; dit vereist een toekomstige native Android-implementatie.
+
+BELANGRIJK
+Deze versie is nog een test: geen automatische Nederlandse transcriptie, geen veilige productieauthenticatie, geen automatische Word-verwerking en geen automatische cloud-opruiming. Gebruik uitsluitend testdossiers.
