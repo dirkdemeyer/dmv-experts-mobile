@@ -13,3 +13,6 @@ Gebruik:
 4. Houd je oorspronkelijke ZIP-bestanden en dossierkopieën voorlopig intact.
 
 De drie-toestellen-synchronisatie is nog niet volledig in de praktijk getest.
+
+Versie 0.6.2: Word-startdocument uploadt na toevoegen automatisch bij bestaande Dropbox-koppeling en internet. Identieke Word-bijlagen worden niet dubbel opgeslagen. Laatste uploadstatus zichtbaar.
+Let op: bij geen internet of geen Dropbox-koppeling blijft bestand lokaal bewaard: controleer uploadmelding en upload later handmatig.
