@@ -1,12 +1,15 @@
-DMV Experts Mobile versie 0.6 – gedeelde dossiers
+DMV Experts Mobile 0.6.1 - correctie
 
-1. Maak voor de installatie eerst een kopie van je huidige GitHub-bestanden.
-2. Upload de zes webbestanden uit deze map naar de HOOFDMAP van je bestaande GitHub Pages repository dirkdemeyer/dmv-experts-mobile.
-3. Open de website opnieuw op zowel Samsung als de beide pc's.
-4. Koppel Dropbox op elk toestel apart als dat nodig is. De App key wordt nog PER BROWSER bewaard (deze is nog niet vast opgenomen).
-5. Klik op HAAL DOSSIERS OP UIT DROPBOX om bestaande dossiers, Word-startdocumenten, audio en foto's te laden. Dit kan veel data verbruiken.
-6. Bij wijzigingen: upload eerst de actieve expertise op toestel A, haal vervolgens dossiers op toestel B.
+Hersteld:
+- Wacht op het openen van de lokale dossierdatabase voordat ophalen of uploaden begint.
+- De publieke Dropbox App key is standaard ingevuld en blijft bewaard wanneer gewijzigd.
+- Bestaande dossiers en bestanden worden niet gewist; database blijft dezelfde.
+- De Dropbox-toestemming/refresh token is toestel- en browsergebonden; bij gewiste browsergegevens kan opnieuw koppelen nodig zijn.
 
-Let op: dit is een PROEFVERSIE. Word-bestanden kun je downloaden/bewerken en als NIEUW startdocument of bestand uploaden; live Word-samenwerking is niet aanwezig. Geen automatische cloud-ophaalactie in achtergrond. Verwijder niets uit de kantooropslag of Dropbox tijdens deze proef.
+Gebruik:
+1. Upload alle bestanden uit deze map naar de root van je GitHub-repository.
+2. Controleer dat versie 0.6.1 verschijnt in de app.
+3. Klik op 'Haal dossiers op uit Dropbox'.
+4. Houd je oorspronkelijke ZIP-bestanden en dossierkopieën voorlopig intact.
 
-Belangrijk: versie 0.6 gebruikt onveranderlijke, per-toestel unieke ZIP-pakketnamen. De bestaande PC-ontvanger accepteert zulke namen, omdat het ZIP-bestand begint met de dossiermapnaam.
+De drie-toestellen-synchronisatie is nog niet volledig in de praktijk getest.
